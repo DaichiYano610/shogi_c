@@ -1,0 +1,17 @@
+void print_masu_frame(void);
+int masu_getX(int x);
+int masu_getY(int y);
+int tegoma_getNum(int y);
+void print_koma(void);
+void print_tegoma_button(void);
+void print_teban(void);
+void print_exit_button(void);
+void print_toryo_button(void);
+void print_nari_button(int flag);
+void print_koma_flag(void);
+void print_all(void);
+void print_update(void);
+void print_box(int x, int y,int width,int height);
+void erase_box(int x,int y, int width,int height);
+int clicked_button(int x,int y);
+void print_help(void);
